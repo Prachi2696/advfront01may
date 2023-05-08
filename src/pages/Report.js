@@ -519,7 +519,7 @@ const Report = () => {
               </div> */}
               <div style={{ display: 'inline-block' }}>
                 <FormControl sx={{ minWidth: 120 }} size="small">
-                  <InputLabel htmlFor="grouped-native-select">Month</InputLabel>
+                  <InputLabel htmlFor="grouped-native-select" style={{color:theme.typography.primary.app}}>Month</InputLabel>
                   <Select native defaultValue="" id="grouped-native-select" label="Month"
                   onChange={e => setMonthlyMonth(e.target.value)}
                   style={{ backgroundColor: theme.dropdownbg.backgroundColor, color: theme.typography.primary.paragraphbody }}>
@@ -565,7 +565,7 @@ const Report = () => {
                   </Select>
                 </FormControl> */}
                  <FormControl sx={{ minWidth: 120 }} size="small">
-                  <InputLabel htmlFor="grouped-native-select">Year</InputLabel>
+                  <InputLabel htmlFor="grouped-native-select" style={{color:theme.typography.primary.app}}>Year</InputLabel>
                   <Select native defaultValue="" id="grouped-native-select" label="Year"
                    onChange={e => setMonthlyYear(e.target.value)}
                    style={{ backgroundColor: theme.dropdownbg.backgroundColor, color: theme.typography.primary.paragraphbody }}>
@@ -633,7 +633,7 @@ const Report = () => {
               </div> */}
               <div>
               <FormControl sx={{ minWidth: 170 }} size="small">
-                  <InputLabel htmlFor="grouped-native-select">Quarter</InputLabel>
+                  <InputLabel htmlFor="grouped-native-select" style={{color:theme.typography.primary.app}}>Quarter</InputLabel>
                   <Select native defaultValue="" id="grouped-native-select" label="Quarter"
                   onChange={e => setQuarterlyQuarter(e.target.value)}
                   style={{ backgroundColor: theme.dropdownbg.backgroundColor, color: theme.typography.primary.paragraphbody }}>
@@ -672,7 +672,7 @@ const Report = () => {
               </div> */}
               <div>
               <FormControl sx={{ minWidth: 120 }} size="small">
-                  <InputLabel htmlFor="grouped-native-select">Year</InputLabel>
+                  <InputLabel htmlFor="grouped-native-select" style={{color:theme.typography.primary.app}}>Year</InputLabel>
                   <Select native defaultValue="" id="grouped-native-select" label="Year"
                     onChange={e => setQuarterlyYear(e.target.value)}
 
@@ -740,7 +740,7 @@ const Report = () => {
               </div> */}
               <div>
               <FormControl sx={{ minWidth: 120 }} size="small">
-                  <InputLabel htmlFor="grouped-native-select">Year</InputLabel>
+                  <InputLabel htmlFor="grouped-native-select" style={{color:theme.typography.primary.app}}>Year</InputLabel>
                   <Select native defaultValue="" id="grouped-native-select" label="Year"
                     onChange={e => setyearlyYear(e.target.value)}
 
