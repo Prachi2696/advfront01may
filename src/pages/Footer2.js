@@ -52,7 +52,7 @@ const Footer2 = () => {
                             <a
                                 target="_blank"
                                 href="https://www.cdac.in/">
-                                <img src={cdaclogo2} style={{ width: isMobile ? '200px' : '100%',marginTop:'5px',height:isMobile?'auto':'100px' ,paddingTop:'5px'}} />
+                                <img src={cdaclogo2} style={{ width: isMobile ? '200px' : '100%',marginTop:'5px',height:isMobile?'auto':'80%' ,paddingTop:'5px'}} />
                             </a>
                         </Grid>
 
