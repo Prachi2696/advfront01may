@@ -340,7 +340,7 @@ function App() {
 
           {authStore.loginStatus &&
             <>
-              <div className="md:ml-64" style={{paddingTop:'5%'}}>
+              <div className="md:ml-64" style={{paddingTop:'45%'}}>
                 <Route exact path="/adv/applicationDetails" component={ApplicationDetails} />
                 <Route exact path="/adv/applicationinfo/:appcode" component={props => <ApplicationsInfo {...props} />} />
                 <Route exact path="/adv/appdetails" component={AppDetails} />
